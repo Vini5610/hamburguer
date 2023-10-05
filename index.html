@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loja de Hambúrgueres</title>
+    <style>
+        body {font-family: Arial, sans-serif; background-color: #ffc300; margin: 0; padding: 0;}
+        .header {width: calc(100% - 200px); height: 150px; background: url('images.jfif') no-repeat center; background-size: cover; display: flex; justify-content: center; align-items: center; margin-left: 200px;}
+        .header h1 {color:#ff0000; font-size: 2em;}
+        .nav {display: flex; flex-direction: column; gap: 20px; background-color: #282828; color: #fff; height: 100vh; width: 200px; position: fixed;}
+        .nav a {color: #fff; text-decoration: none; padding: 10px;}
+        .produtos {display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-left: 210px;}
+        .produto {border: 1px solid #ff0000; margin-top: 10px; padding: 10px; width: 200px; background-color: #fff;}
+        .produto img {width: 100%;}
+        .produto h2 {font-size: 20px; color: #ff0000;}
+        .produto p {font-size: 16px; color: #555;}
+        button {background-color: #ff0000; color: #fff; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin-top: 10px;}
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="#">Início</a>
+        <a href="#">Produtos</a>
+        <a href="#">Contato</a>
+        <a href="#">Carrinho</a>
+    </nav>
+
+    <div class="header">
+        <h1>Loja de Hambúrgueres</h1>
+    </div>
+
+    <div class="produtos">
+        <div class="produto">
+            <img src="images.jfif" alt="Hambúrguer 1">
+            <h2>Hambúrguer 1</h2>
+            <p>R$10,00</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="produto">
+            <img src="hamburguer2.jpg" alt="Hambúrguer 2">
+            <h2>Hambúrguer 2</h2>
+            <p>R$12,00</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Adicione mais produtos conforme necessário -->
+    </div>
+</body>
+</html>
